@@ -9,8 +9,8 @@ $(function () {
                     "redo",
                     "separator",
                     {
-                        formatName: "size",
-                        formatValues: [
+                        name: "size",
+                        acceptedValues: [
                             "8pt",
                             "10pt",
                             "12pt",
@@ -21,8 +21,8 @@ $(function () {
                         ]
                     },
                     {
-                        formatName: "font",
-                        formatValues: [
+                        name: "font",
+                        acceptedValues: [
                             "Arial",
                             "Courier New",
                             "Georgia",
@@ -48,8 +48,8 @@ $(function () {
                     "bulletList",
                     "separator",
                     {
-                        formatName: "header",
-                        formatValues: [false, 1, 2, 3, 4, 5]
+                        name: "header",
+                        acceptedValues: [false, 1, 2, 3, 4, 5]
                     },
                     "separator",
                     "color",
