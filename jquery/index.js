@@ -1,5 +1,5 @@
 $(function () {
-    $(".html-editor")
+    $("#html-editor")
         .dxHtmlEditor({
             height: 725,
             valueType: "html",
