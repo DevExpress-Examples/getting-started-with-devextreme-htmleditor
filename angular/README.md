@@ -1,4 +1,4 @@
-# getting-started-with-htmlEditor
+# Getting Started with DevExtreme HtmlEditor - Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 

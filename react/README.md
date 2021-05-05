@@ -1,4 +1,4 @@
-# getting-started-with-htmlEditor
+# # Getting Started with DevExtreme HtmlEditor - React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

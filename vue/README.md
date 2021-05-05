@@ -1,4 +1,4 @@
-# getting-started-with-htmlEditor
+# # Getting Started with DevExtreme HtmlEditor - Vue
 
 ## Project setup
 
