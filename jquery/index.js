@@ -1,6 +1,5 @@
 $(function () {
     $("#html-editor").dxHtmlEditor({
-        height: 725,
         valueType: "html",
         toolbar: {
             items: [
@@ -9,28 +8,11 @@ $(function () {
                 "separator",
                 {
                     name: "size",
-                    acceptedValues: [
-                        "8pt",
-                        "10pt",
-                        "12pt",
-                        "14pt",
-                        "18pt",
-                        "24pt",
-                        "36pt"
-                    ]
+                    acceptedValues: [ "8pt", "10pt", "12pt", "14pt", "18pt", "24pt", "36pt" ]
                 },
                 {
                     name: "font",
-                    acceptedValues: [
-                        "Arial",
-                        "Courier New",
-                        "Georgia",
-                        "Impact",
-                        "Lucida Console",
-                        "Tahoma",
-                        "Times New Roman",
-                        "Verdana"
-                    ]
+                    acceptedValues: [ "Arial", "Georgia", "Tahoma", "Times New Roman", "Verdana" ]
                 },
                 "separator",
                 "bold",

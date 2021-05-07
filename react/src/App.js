@@ -8,18 +8,10 @@ import HtmlEditor, {
     Item
 } from "devextreme-react/html-editor";
 
-const sizeValues = ["8pt", "10pt", "12pt", "14pt", "18pt", "24pt", "36pt"];
-const fontValues = [
-    "Arial",
-    "Courier New",
-    "Georgia",
-    "Impact",
-    "Lucida Console",
-    "Tahoma",
-    "Times New Roman",
-    "Verdana"
-];
-const headerValues = [false, 1, 2, 3, 4, 5];
+const sizeValues = [ "8pt", "10pt", "12pt", "14pt", "18pt", "24pt", "36pt" ];
+const fontValues = [ "Arial", "Georgia", "Tahoma", "Times New Roman", "Verdana" ];
+const headerValues = [ false, 1, 2, 3, 4, 5 ];
+
 const markup = `
     <div>
         <h2>
@@ -78,8 +70,7 @@ const markup = `
 
 const App = () => {
     return (
-        <HtmlEditor height={725} defaultValue={markup} valueType="html">
-            <MediaResizing enabled={true} />
+        <HtmlEditor defaultValue={markup} valueType="html">
             <Toolbar multiline={true}>
                 <Item name="undo" />
                 <Item name="redo" />
@@ -121,6 +112,7 @@ const App = () => {
                 <Item name="insertColumnRight" />
                 <Item name="deleteColumn" />
             </Toolbar>
+            <MediaResizing enabled={true} />
         </HtmlEditor>
     );
 };

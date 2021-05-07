@@ -1,19 +1,16 @@
 <template>
-    <DxHtmlEditor 
-        :height="725"
-        value-type="html">
-        <DxMediaResizing :enabled="true" />
+    <DxHtmlEditor value-type="html">
         <DxToolbar :multiline="true">
             <DxItem name="undo" />
             <DxItem name="redo" />
             <DxItem name="separator" />
             <DxItem
-                :accepted-values="sizeValues"
                 name="size"
+                :accepted-values="sizeValues"
             />
             <DxItem
-                :accepted-values="fontValues"
                 name="font"
+                :accepted-values="fontValues"
             />
             <DxItem name="separator" />
             <DxItem name="bold" />
@@ -30,8 +27,8 @@
             <DxItem name="bulletList" />
             <DxItem name="separator" />
             <DxItem
-                :accepted-values="headerValues"
                 name="header"
+                :accepted-values="headerValues"
             />
             <DxItem name="separator" />
             <DxItem name="color" />
@@ -53,6 +50,7 @@
             <DxItem name="insertColumnRight" />
             <DxItem name="deleteColumn" />
         </DxToolbar>
+        <DxMediaResizing :enabled="true" />
         <div>
             <h2>
                 <img src="./HtmlEditor.svg" alt="HtmlEditor">
@@ -113,21 +111,21 @@
 import {
     DxHtmlEditor,
     DxToolbar,
-    DxMediaResizing,
-    DxItem
+    DxItem,
+    DxMediaResizing
 } from 'devextreme-vue/html-editor';
 
 export default {
     components: {
         DxHtmlEditor,
-        DxMediaResizing,
         DxToolbar,
-        DxItem
+        DxItem,
+        DxMediaResizing
     },
     data() {
         return {
             sizeValues: ['8pt', '10pt', '12pt', '14pt', '18pt', '24pt', '36pt'],
-            fontValues: ['Arial', 'Courier New', 'Georgia', 'Impact', 'Lucida Console', 'Tahoma', 'Times New Roman', 'Verdana'],
+            fontValues: ['Arial', 'Georgia', 'Tahoma', 'Times New Roman', 'Verdana'],
             headerValues: [false, 1, 2, 3, 4, 5]
         };
     }
