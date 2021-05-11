@@ -84,7 +84,7 @@
                 <li>Tables support</li>
             </ul>
             <br>
-            <p>Supported frameworks and libraries</p>
+            <p>Supported frameworks and libraries:</p>
             <table>
                 <tr>
                     <td><strong>jQuery</strong></td>
@@ -135,5 +135,13 @@ export default {
 <style>
 .dx-htmleditor-content img {
     vertical-align: middle;
+}
+
+.dx-htmleditor-content table {
+    width: 50%;
+}
+
+.dx-htmleditor-content table td:last-child {
+    text-align: right;
 }
 </style>

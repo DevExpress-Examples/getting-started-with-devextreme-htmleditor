@@ -46,7 +46,7 @@ const markup = `
             <li>Tables support</li>
         </ul>
         <br/>
-        <p>Supported frameworks and libraries</p>
+        <p>Supported frameworks and libraries:</p>
         <table>
             <tr>
                 <td><strong>jQuery</strong></td>
