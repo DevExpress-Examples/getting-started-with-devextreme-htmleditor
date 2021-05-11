@@ -50,19 +50,19 @@ const markup = `
         <table>
             <tr>
                 <td><strong>jQuery</strong></td>
-                <td style="text-align: right;">v2.1 - v2.2 and v3.x</td>
+                <td>v2.1 - v2.2 and v3.x</td>
             </tr>
             <tr>
                 <td><strong>Angular</strong></td>
-                <td style="text-align: right;">v7.0.x - v10.0.x</td>
+                <td>v7.0.x - v10.0.x</td>
             </tr>
             <tr>
                 <td><strong>React</strong></td>
-                <td style="text-align: right;">v16.2+</td>
+                <td>v16.2+</td>
             </tr>
             <tr>
                 <td><strong>Vue</strong></td>
-                <td style="text-align: right;">v2.6.3+</td>
+                <td>v2.6.3+</td>
             </tr>
         </table>
     </div>
