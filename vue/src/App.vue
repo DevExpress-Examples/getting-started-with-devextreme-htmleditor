@@ -54,7 +54,7 @@
         <div>
             <h2>
                 <img src="./HtmlEditor.svg" alt="HtmlEditor">
-                Formatted Text Editor (HTML Editor)
+                Rich Text Editor (HTML Editor)
             </h2>
             <br>
             <p>DevExtreme JavaScript HTML Editor is a client-side WYSIWYG text editor that allows its users to format textual and visual content and store it as HTML or Markdown.</p>
@@ -63,28 +63,28 @@
                 <li>Inline formats:
                     <ul>
                         <li><strong>Bold</strong>, <em>italic</em>, <s>strikethrough</s> text formatting</li>
-                        <li>Font, size, color changes (HTML only)</li>
+                        <li>Typeface, font size, text color changes (HTML only)</li>
                     </ul>
                 </li>
                 <li>Block formats:
                     <ul>
                         <li>Headers</li>
-                        <li>Text alignment</li>
                         <li>Lists (ordered and unordered)</li>
                         <li>Code blocks</li>
                         <li>Quotes</li>
                     </ul>
                 </li>
-                <li>Custom formats</li>
+                <li>Built-in format customization</li>
                 <li>HTML and Markdown support</li>
-                <li>Mail-merge placeholders (for example, %username%)</li>
-                <li>Adaptive toolbar for working images, links, and color formats</li>
-                <li>Insert images as a link or base64 (drag and drop images to convert them to base64)</li>
-                <li>Copy-paste rich content (unsupported formats are removed)</li>
-                <li>Tables support</li>
+                <li>Mail Merge</li>
+                <li>Adaptive toolbar for working with images, links, and color formats</li>
+                <li>Copy-paste rich content (the control strips unsupported formats)</li>
+                <li>Embedded images specified as a link to an image file or as base64-encoded binary data</li>
+                <li>Mention (for example, @person)</li>
+                <li>Tables</li>
             </ul>
             <br>
-            <p>Supported frameworks and libraries:</p>
+            <p>The editor supports the following frameworks and libraries:</p>
             <table>
                 <tr>
                     <td><strong>jQuery</strong></td>
@@ -92,7 +92,7 @@
                 </tr>
                 <tr>
                     <td><strong>Angular</strong></td>
-                    <td>v7.0.x - v10.0.x</td>
+                    <td>v7.0.x - v11.0.x</td>
                 </tr>
                 <tr>
                     <td><strong>React</strong></td>
