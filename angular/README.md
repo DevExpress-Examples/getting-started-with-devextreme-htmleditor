@@ -1,4 +1,6 @@
-# Getting Started with DevExtreme HtmlEditor - Angular
+# Getting Started with DevExtreme Angular HtmlEditor
+
+This repository stores Angular source code for the [Getting Started with HtmlEditor](https://js.devexpress.com/Documentation/Guide/UI_Components/HtmlEditor/Getting_Started_with_HtmlEditor/) tutorial.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 

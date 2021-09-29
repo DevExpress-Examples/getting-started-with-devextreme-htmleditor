@@ -1,4 +1,6 @@
-# Getting Started with DevExtreme HtmlEditor - Vue
+# Getting Started with DevExtreme Vue HtmlEditor
+
+This repository stores Vue source code for the [Getting Started with HtmlEditor](https://js.devexpress.com/Documentation/Guide/UI_Components/HtmlEditor/Getting_Started_with_HtmlEditor/) tutorial.
 
 ## Project setup
 
