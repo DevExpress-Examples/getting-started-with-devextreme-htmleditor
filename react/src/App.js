@@ -5,7 +5,8 @@ import "./App.css";
 import HtmlEditor, {
     Toolbar,
     MediaResizing,
-    Item
+    Item,
+    TableContextMenu
 } from "devextreme-react/html-editor";
 
 const sizeValues = [ "8pt", "10pt", "12pt", "14pt", "18pt", "24pt", "36pt" ];
@@ -50,7 +51,7 @@ const markup = `
         <table>
             <tr>
                 <td><strong>jQuery</strong></td>
-                <td>v2.1 - v2.2 and v3.x</td>
+                <td>v3.x</td>
             </tr>
             <tr>
                 <td><strong>Angular</strong></td>
@@ -111,8 +112,11 @@ const App = () => {
                 <Item name="insertColumnLeft" />
                 <Item name="insertColumnRight" />
                 <Item name="deleteColumn" />
+                <Item name="cellProperties" />
+                <Item name="tableProperties" />
             </Toolbar>
             <MediaResizing enabled={true} />
+            <TableContextMenu enabled={true} />
         </HtmlEditor>
     );
 };

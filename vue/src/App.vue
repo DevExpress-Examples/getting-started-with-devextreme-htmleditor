@@ -49,8 +49,11 @@
             <DxItem name="insertColumnLeft" />
             <DxItem name="insertColumnRight" />
             <DxItem name="deleteColumn" />
+            <DxItem name="cellProperties" />
+            <DxItem name="tableProperties" />
         </DxToolbar>
         <DxMediaResizing :enabled="true" />
+        <DxTableContextMenu :enabled="true" />
         <div>
             <h2>
                 <img src="./HtmlEditor.svg" alt="HtmlEditor">
@@ -88,7 +91,7 @@
             <table>
                 <tr>
                     <td><strong>jQuery</strong></td>
-                    <td>v2.1 - v2.2 and v3.x</td>
+                    <td>v3.x</td>
                 </tr>
                 <tr>
                     <td><strong>Angular</strong></td>
@@ -112,7 +115,8 @@ import {
     DxHtmlEditor,
     DxToolbar,
     DxItem,
-    DxMediaResizing
+    DxMediaResizing,
+    DxTableContextMenu
 } from 'devextreme-vue/html-editor';
 
 export default {
@@ -120,7 +124,8 @@ export default {
         DxHtmlEditor,
         DxToolbar,
         DxItem,
-        DxMediaResizing
+        DxMediaResizing,
+        DxTableContextMenu
     },
     data() {
         return {
