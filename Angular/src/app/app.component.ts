@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
+import { DxHtmlEditorTypes } from 'devextreme-angular/ui/html-editor';
+import { MediaResizingOptions, TableContextMenuOptions } from './app.types';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +8,19 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
+  sizeValues: string[] = ['8pt', '10pt', '12pt', '14pt', '18pt', '24pt', '36pt'];
 
-  counter = 0;
+  fontValues: string[] = ['Arial', 'Georgia', 'Tahoma', 'Times New Roman', 'Verdana'];
 
-  buttonText = 'Click count: 0';
+  headerValues: (boolean | number)[] = [false, 1, 2, 3, 4, 5];
 
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
-  }
+  multilineToolbar = true;
+
+  mediaResizingOptions: MediaResizingOptions = {
+    enabled: true,
+  };
+
+  tableContextMenuOptions: TableContextMenuOptions = {
+    enabled: true,
+  };
 }

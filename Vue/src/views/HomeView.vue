@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import HomeContent from '../components/HomeContent.vue';
+import HtmlEditorContent from '../components/HtmlEditorContent.vue';
 </script>
 
 <template>
-  <HomeContent text="Count"/>
+  <HtmlEditorContent/>
 </template>
 
