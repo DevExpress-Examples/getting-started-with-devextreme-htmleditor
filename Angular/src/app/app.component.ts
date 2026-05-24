@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DxHtmlEditorTypes } from 'devextreme-angular/ui/html-editor';
 import { MediaResizingOptions, TableContextMenuOptions } from './app.types';
 
 import { DxHtmlEditorModule } from 'devextreme-angular/ui/html-editor';
