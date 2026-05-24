@@ -3,9 +3,10 @@ import { DxHtmlEditorTypes } from 'devextreme-angular/ui/html-editor';
 import { MediaResizingOptions, TableContextMenuOptions } from './app.types';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent {
   sizeValues: string[] = ['8pt', '10pt', '12pt', '14pt', '18pt', '24pt', '36pt'];
