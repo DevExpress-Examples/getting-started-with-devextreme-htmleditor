@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { MediaResizingOptions, TableContextMenuOptions } from './app.types';
 
 import { DxHtmlEditorModule } from 'devextreme-angular/ui/html-editor';
@@ -7,6 +7,7 @@ import { DxHtmlEditorModule } from 'devextreme-angular/ui/html-editor';
     selector: 'app-root',
     imports: [DxHtmlEditorModule],
     templateUrl: './app.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
